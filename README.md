@@ -1,10 +1,9 @@
-# Relay Starter Kit
-
-This kit includes an app server, a GraphQL server, and a transpiler that you can use to get started building an app with Relay. For a walkthrough, see the [Relay tutorial](https://facebook.github.io/relay/docs/tutorial.html).
+# React Relay Chat
 
 ## Installation
 
 ```
+npm install --global babel
 npm install
 ```
 
@@ -29,6 +28,4 @@ npm run update-schema
 npm start
 ```
 
-## License
-
-Relay Starter Kit is [BSD licensed](./LICENSE). We also provide an additional [patent grant](./PATENTS).
+A working in progress, I will base myself on [flux-chat](https://github.com/facebook/flux/tree/master/examples/flux-chat)
