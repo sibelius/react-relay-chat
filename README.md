@@ -1,5 +1,7 @@
 # React Relay Chat
 
+![](https://raw.githubusercontent.com/sibeliusseraphini/react-relay-chat/master/screenshots/messenger.png)
+
 ## Installation
 
 ```
