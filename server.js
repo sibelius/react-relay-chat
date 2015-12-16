@@ -22,7 +22,11 @@ graphQLServer.listen(GRAPHQL_PORT, () => console.log(
 // Serve the Relay app
 var compiler = webpack({
   entry: path.resolve(__dirname, 'js', 'app.js'),
+  debug: true,
   module: {
+    preLoaders: [
+      {test: /\.js$/, loader: "eslint-loader", exclude: /node_modules/}
+    ],
     loaders: [
       {
         exclude: /node_modules/,
